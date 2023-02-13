@@ -3,5 +3,7 @@
 
 * {
 	font-family: 'Open Sans', sans-serif;
-	font-weight:400;
 }
+
+@import 'blocks/header';
+@import 'blocks/interactive-map';

@@ -26,7 +26,7 @@
     "gulp-sass": "^5.1.0",
     "sass": "^1.58.0"
   },
-  "browserlist": [
+  "Browserlist": [
     "last 2 version",
     "> 1%",
     "maintained node versions",
