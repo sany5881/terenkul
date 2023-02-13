@@ -1,0 +1,27 @@
+.map {
+    display: flex;
+    justify-content: center;
+    min-height: 900px;
+    background: url(../../img/site_phone.jpg) center (center/cover) no-repeat;
+
+    .bottom_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        &__instruction {
+            color:#fff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    
+        &__link-vk {
+            display: flex;
+        }
+
+        &__roadmap {
+            text-transform: uppercase;
+        }
+    }
+}
