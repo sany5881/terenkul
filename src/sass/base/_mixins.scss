@@ -10,3 +10,12 @@
         padding: 0 10px 0 0;
     }
 }
+
+@mixin title {
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
