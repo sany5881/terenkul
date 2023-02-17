@@ -120,6 +120,7 @@
 .tours {
     margin: 50px auto;
 
+
     &__title {
         @include title;
         margin: 0 auto 50px auto;
@@ -157,7 +158,7 @@
             &:hover {
                 z-index: 3;
                 transform: scale(1.6);
-                background-color: rgba(104, 183, 214, 0.85);
+                background-color: rgba(104, 183, 214, 0.95);
                 transition: all 0.4s ease-in-out;
                 -webkit-transition: all 0.4s ease-in-out;
             }
@@ -170,20 +171,9 @@
                 transform: translateX(70%);
                 background-color: rgba(126, 193, 224, 0.95);
             }
-            
-            &:nth-child(4) {
-                &:hover ~ .item-back {
-                    z-index: 2;
-                    transition: all 0.4s ease-in-out;
-                    -webkit-transition: all 0.4s ease-in-out;
-                    opacity: 1;
-                    transform: translateX(-70%);
-                    background-color: rgba(126, 193, 224, 0.95);
-                }
-            }
-    
 
         }
+        
         .item-back {
             opacity: 0;
             position:absolute;
@@ -199,13 +189,20 @@
             z-index: 0;
             cursor: pointer;
         }
-    }
+        
+        &:last-child {
+            .item-front:hover ~ .item-back {
+                transform: translateX(-115%);
+            }
 
-    &__info {
-
+        }
     }
 
     &__name {
+        display: block;
+    }
+
+    &__price {
         display: block;
     }
 
@@ -214,5 +211,55 @@
         width: 100%;
         background-size: cover;
         margin: 30px auto 15px auto;
+    }
+
+    &__more {
+        display: none;
+    }
+}
+
+.restaurant {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    padding: 0 0 50px 0;
+    &__title {
+        @include title;
+        margin: 30px auto 50px auto;
+    }
+    &__image {
+        transition: all 0.3s ease-in-out;
+        img {
+            width: 100%;
+        }
+        &:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &__info {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .about {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .more {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            background-color: #020202;
+            padding: 10px 10px;
+            transition: all 0.2s ease-in-out;
+            &:hover {
+                background-color: #fff;
+                color: #020202;
+                transition: all 0.2s ease-in-out;
+            }
+        }
     }
 }
