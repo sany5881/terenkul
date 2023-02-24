@@ -120,7 +120,6 @@
 .tours {
     margin: 50px auto;
 
-
     &__title {
         @include title;
         margin: 0 auto 50px auto;
@@ -227,13 +226,8 @@
         margin: 30px auto 50px auto;
     }
     &__image {
-        transition: all 0.3s ease-in-out;
         img {
             width: 100%;
-        }
-        &:hover {
-            transform: scale(1.1);
-            transition: all 0.3s ease-in-out;
         }
     }
     &__info {
@@ -261,5 +255,36 @@
                 transition: all 0.2s ease-in-out;
             }
         }
+    }
+}
+
+.video {
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        @include title;
+        margin: 30px auto 50px auto;
+    }
+}
+
+.reviews {
+    // background: linear-gradient(0deg, #252525, rgb(255 255 255 / 10%));
+    background: linear-gradient(0deg, #000000, rgb(255 255 255 / 10%));
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+    &__title {
+        @include title;
+        margin: 30px auto 50px auto;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 760px;
+        height: 900px;
     }
 }

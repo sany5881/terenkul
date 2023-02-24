@@ -1,5 +1,6 @@
 @import 'base/mixins';
 @import 'base/variables';
+@import 'base/media';
 
 * {
 	font-family: 'Open Sans', sans-serif;
@@ -9,3 +10,4 @@
 @import 'blocks/map';
 @import 'blocks/body';
 @import 'blocks/sprites';
+@import 'blocks/footer';
