@@ -1,6 +1,8 @@
 header {
     position: relative;
     height: 92px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
 }
 
 .header {

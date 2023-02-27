@@ -1,0 +1,139 @@
+@media (max-width: 1540px) {
+    .header {
+        .menu {
+            padding: 35px 0px;
+
+            .menu_item {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .header {
+        .menu {
+            padding: 35px 0px;
+
+            &__item {
+                padding-right: 15px;
+            }
+        }
+        &__logo {
+            width: 140px;
+        }
+        &__label {
+            font-size: 14px;
+        }
+    }
+    .video {
+        &__source {
+            iframe {
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 853px;
+                height: 480px;
+            }
+        }
+    }
+    .tours {
+        &__item {
+            &:last-child {
+                .item-back {
+                transform: translateX(-40%);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .header {
+        &__menu {
+            .menu_link {
+                font-size: 12px;
+            }
+            .menu_item {
+                padding-right: 10px !important;
+            }
+        }
+        &__label {
+            font-size: 12px;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .tours {
+        &__item {
+            &:last-child {
+                .item-back {
+                transform: translateX(-45%);
+                }
+            }
+        }
+    }
+    .map {
+        min-height: 690px;
+    }
+    .interactive-map {
+        min-height: 690px;
+
+        .restoran-icon {
+            position: relative;
+            left: 22vh;
+            top: -17vh;
+        }
+        .watch-icon {
+            &__first {
+                position: relative;
+                left: -26.5vh;
+                top: -9vh;
+            }
+            &__second {
+                position: relative;
+                left: 3vh;
+                top: -9vh;
+            }
+        }
+        .reception-icon {
+            position: relative;
+            left: 31.5vh;
+            top: -8.5vh;
+        }
+    }
+    .header {
+        height: 102px;
+        flex-direction: column;
+        &__menu {
+            .menu {
+                padding: 15px 0;
+            }
+            .menu_link {
+                font-size: 12px;
+            }
+            .menu_item {
+                padding-right: 10px !important;
+            }
+        }
+        &__links {
+            padding: 10px 0 0 0;
+        }
+        &__logo {
+            display: block;
+        }
+        &__label {
+            font-size: 12px;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+}

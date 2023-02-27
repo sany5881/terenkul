@@ -38,15 +38,74 @@
         </div>
     </header>
 
+
+    <div class="interactive-map">
+        <div class="restoran-icon">
+            <img src="img/icons/rest02.png" alt="restoran-icon">
+        </div>
+        <div class="watch-icon__first">
+            <a href="#"><img src="img/icons/glaz.png" alt="watch-icon"></a>
+        </div>
+        <div class="watch-icon__second">
+            <a href="#"><img src="img/icons/glaz.png" alt="watch-icon"></a>
+        </div>
+        <div class="reception-icon">
+            <img src="img/icons/recept.png" alt="reception-img">
+        </div>
+    </div>
+
+    <div class="cottages-map">
+        <div class="cottages">
+            <div class="mark mark_15" data-id="15">&nbsp;</div>
+            <div class="cottage cottage_15" data-id="15">
+                <div class="photo"><img src="img/cottages/cottage_15_main-205x205.jpg" alt="cottage_15"></div>
+                <p class="title">Дача №15 (Апартаменты с кухней)</p>
+                <div class="description">
+                    <p>Четырехместный двухуровневый номер-апартаменты : <strong>14000 р.</strong></p>
+                    <a class="button" href="https://terenkul.ru/dachi/dacha-15/">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="mark mark_16" data-id="16">&nbsp;</div>
+            <div class="cottage cottage_16" data-id="16">
+                <div class="photo"><img src="img/cottages/cottage_16_main-205x205.jpg" alt="cottage_16"></div>
+                <p class="title">Дача №16</p>
+                <div class="description">
+                    <div>
+                        <p>Трехместные номера (2+1) с балконом и видом на озеро : : <strong>7000 р.</strong></p>                                              
+                        <p>Трехместные номера: (2+1) : : <strong>6700 р.</strong></p>                                              
+                        <p>Четырехместный номер (2+2) с балконом и видом на озеро : : <strong>9900 р.</strong></p>                        
+                        <a class="button" href="https://terenkul.ru/dachi/dacha-16/">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mark mark_17" data-id="17">&nbsp;</div>
+            <div class="cottage cottage_17" data-id="17">
+                <div class="photo"><img src="img/cottages/cottage_17_main-205x205.jpg" alt="cottage_17"></div>
+                <p class="title">Дача №17</p>
+                <div class="description">
+                    <div>
+                        <p>Двухместные номера : : <strong>5200 р.</strong></p>
+                        <p>Трёхместные номера (2+1) : : <strong>5900 р.</strong></p>            
+                        <a class="button" href="https://terenkul.ru/dachi/dacha-17/">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <div class="map">
+        <div class="map__instruction"><h1>НАВЕДИТЕ КУРСОР НА ОБЪЕКТ ИНТЕРАКТИВНОЙ КАРТЫ ДЛЯ ПОДРОБНОЙ ИНФОРМАЦИИ</h1></div>
         <div class="bottom_menu">
-                <h1 class="bottom_menu__instruction">НАВЕДИТЕ КУРСОР НА ОБЪЕКТ ИНТЕРАКТИВНОЙ КАРТЫ ДЛЯ ПОДРОБНОЙ ИНФОРМАЦИИ</h1>
                 <a href="#" class="bottom_menu__link-vk"><img src="img/vk.png" alt="vk"></a>
                 <a href="#" class="bottom_menu__roadmap"><img src="img/icon_map.png" alt="roadmap"> Схема проезда</a>
                 <a href="#" class="bottom_menu__3d-tour"><img src="img/360.png" alt="3d-tour">Посмотреть 3D Тур</a>
                 <a href="#video" class="bottom_menu__video"><img src="img/btn-play.png" alt="play-video">Посмотреть видео о комплексе</a>
         </div>
     </div>
+
 
     <div class="service__wrapper">
         <div class="service__item service__item_bg1"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Дачи</a></div>
@@ -199,8 +258,8 @@
         <div class="container">
             <div class="row">
                 <div class="video__title">ВИДЕО О КОМПЛЕКСЕ</div>
-                <div class="col-md-12">
-                    <iframe src="https://vk.com/video_ext.php?oid=-117633467&id=456239058&hash=1ecd17eb60cdb462&hd=3" width="1280" height="720" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                <div class="col-md-12 video__source">
+                    <iframe src="https://vk.com/video_ext.php?oid=-117633467&id=456239058&hash=1ecd17eb60cdb462&hd=3" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -271,5 +330,7 @@
     <div id="bg"></div>
     <script src="js/background.js"></script>
     <script src="https://use.fontawesome.com/30c72dc692.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <script src="js/cottages.js"></script>
 </body>
 </html>

@@ -1,0 +1,114 @@
+.cottages-map {
+    position: absolute;
+    width: 100%;
+    min-height: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    .cottages {
+        .cottage {
+            position: absolute;
+            background-image: url(../../img/cottages/fenfon.png);
+            width: 514px;
+            height: 255px;
+            display: none;
+    
+            .photo {
+                float: left;
+                width: 202px;
+                padding: 40px 0;
+                img {
+                    width: 170px;
+                    height: 170px;
+                    border-radius: 85px;
+                    display: block;
+                    margin: auto; 
+                }
+            }
+    
+            .title {
+                font-size: 22px;
+                text-align: center;
+                padding-top: 25px;
+            }
+    
+            .description {
+                float: right;
+                width: 312px;
+                text-align: center;
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding: 8px 5px;
+                    color: #000000;
+                    padding-bottom: 0;
+                    text-align: center;
+                    width: 90%;
+                    margin: auto;
+                    strong {
+                        font-weight: 700;
+                    }
+                }
+                .button {
+                    padding: 5px 33px;
+                    position: relative;
+                    color: #fff;
+                    font-size: 15px;
+                    background: #88b6e5;
+                    margin: 20px;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+            }
+    
+            &_15 {
+                left: 355px;
+                top: 340px;
+                height: 235px;
+            }
+    
+            &_16 {
+                left: 430px;
+                top: 305px;
+                height: 270px;
+            }
+    
+            &_17 {
+                left: 530px;
+                top: 285px;
+                height: 235px;
+            }
+        }
+        .mark {
+            cursor: pointer;
+            position: relative;
+            // background-color: #fff;
+            
+            &_15 {
+                cursor: pointer;
+                left: -540px;
+                top: -75px;
+                width: 57px;
+                height: 27px;
+            }
+    
+            &_16 {
+                cursor: pointer;
+                left: -482px;
+                top: -145px;
+                width: 75px;
+                height: 44px;
+            }
+    
+            &_17 {
+                cursor: pointer;
+                left: -368px;
+                top: -210px;
+                width: 47px;
+                height: 37px;
+            }
+        }
+    }
+}

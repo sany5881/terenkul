@@ -118,7 +118,7 @@
 }
 
 .tours {
-    margin: 50px auto;
+    margin: 100px auto;
 
     &__title {
         @include title;
@@ -190,6 +190,9 @@
         }
         
         &:last-child {
+            .item-back {
+                transform: translateX(-30%);
+            }
             .item-front:hover ~ .item-back {
                 transform: translateX(-115%);
             }
@@ -207,8 +210,9 @@
 
     &__image {
         height: 200px;
-        width: 100%;
+        width: 272px;
         background-size: cover;
+        object-fit: cover;
         margin: 30px auto 15px auto;
     }
 
@@ -267,6 +271,12 @@
     &__title {
         @include title;
         margin: 30px auto 50px auto;
+    }
+    &__source {
+        iframe {
+            width: 1280px;
+            height: 720px;
+        }
     }
 }
 
