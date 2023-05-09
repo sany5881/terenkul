@@ -62,6 +62,58 @@
                     display: inline-block;
                 }
             }
+
+            &_complex {
+                left: 943px;
+                top: 288px;
+                height: 270px;
+            }
+
+            &_sauna {
+                left: 1010px;
+                top: 277px;
+                height: 270px;
+            }
+
+            &_admin {
+                left: 1310px;
+                top: 277px;
+                height: 260px;
+                width: 200px;
+                .photo {
+                    padding: 0px 0;
+                }
+            }
+
+            &_3 {
+                left: 870px;
+                top: 305px;
+                height: 270px;
+            }
+
+            &_5 {
+                left: 754px;
+                top: 278px;
+                height: 270px;
+            }
+
+            &_7 {
+                left: 680px;
+                top: 250px;
+                height: 270px;
+            }
+
+            &_8 {
+                left: 650px;
+                top: 270px;
+                height: 235px;
+            }
+            
+            &_11 {
+                left: 660px;
+                top: 300px;
+                height: 255px;
+            }
     
             &_15 {
                 left: 355px;
@@ -71,7 +123,7 @@
     
             &_16 {
                 left: 430px;
-                top: 305px;
+                top: 310px;
                 height: 270px;
             }
     
@@ -80,11 +132,95 @@
                 top: 285px;
                 height: 235px;
             }
+
+            &_21 {
+                left: 730px;
+                top: 245px;
+                height: 235px;
+            }
+
+            &_23 {
+                left: 630px;
+                top: 240px;
+                height: 235px;
+            }
+
+            &_27 {
+                left: 1000px;
+                top: 260px;
+                height: 270px;
+            }
         }
         .mark {
             cursor: pointer;
+            
             position: relative;
-            // background-color: #fff;
+            background-color: #fff;
+
+
+            &_complex {
+                cursor: pointer;
+                left: 235px;
+                top: -27px;
+                width: 80px;
+                height: 40px;
+            }
+
+            &_sauna {
+                cursor: pointer;
+                left: 384px;
+                top: -35px;
+                width: 30px;
+                height: 17px;
+            }
+
+            &_admin {
+                cursor: pointer;
+                left: 585px;
+                top: 53px;
+                width: 40px;
+                height: 30px;
+            }
+
+            &_3 {
+                cursor: pointer;
+                left: 162px;
+                top: -15px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_5 {
+                cursor: pointer;
+                left: 65px;
+                top: -55px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_7 {
+                cursor: pointer;
+                left: 15px;
+                top: -90px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_8 {
+                cursor: pointer;
+                left: -65px;
+                top: -85px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_11 {
+                cursor: pointer;
+                left: -245px;
+                top: -95px;
+                width: 60px;
+                height: 40px;
+            }
             
             &_15 {
                 cursor: pointer;
@@ -108,6 +244,30 @@
                 top: -210px;
                 width: 47px;
                 height: 37px;
+            }
+
+            &_21 {
+                cursor: pointer;
+                left: -180px;
+                top: -284px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_23 {
+                cursor: pointer;
+                left: -65px;
+                top: -315px;
+                width: 40px;
+                height: 25px;
+            }
+
+            &_27 {
+                cursor: pointer;
+                left: 337px;
+                top: -365px;
+                width: 45px;
+                height: 25px;
             }
         }
     }
