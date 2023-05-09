@@ -1,0 +1,39 @@
+.main {
+    .payment_block {
+        margin: 100px auto;
+        position: relative;
+        text-align: center;
+        background-color: rgb(255 255 255 / 50%);
+        color: #fff;
+        width: 80%;
+        padding: 30px 0;
+
+        h2 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .input-sum {
+            border: 1px solid #ffffff; 
+            width: 200px;
+            height: 40px;
+            color: white;
+            background: none;
+            margin-left: 3%;
+
+        }
+        .submit {
+            margin: 15px 0 0 0;
+            background-color: $elements-color;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 22px;
+            text-transform: uppercase;
+            border-radius: 15px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.main {
+    .sale_block {
+        margin: 100px auto;
+        position: relative;
+        background-color: rgb(255 255 255 / 50%);
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        .sale-content {
+            display: flex;
+            align-items:start;
+            justify-content: center;
+            
+            img {
+                height: 180px;
+                object-fit: cover;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            padding: 0 0 10px 0;
+        }
+        p {
+            font-size: 18px;
+            padding: 0px 20px;
+        }
+    }
+}

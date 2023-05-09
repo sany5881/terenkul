@@ -6,10 +6,16 @@
 }
 
 @import 'blocks/header';
-@import 'blocks/map';
-@import 'blocks/cottages-map';
-@import 'blocks/body';
-@import 'blocks/sprites';
+@import 'blocks/head';
+@import 'blocks/index/map';
+@import 'blocks/index/cottages-map';
+@import 'blocks/index/body';
+@import 'blocks/index/sprites';
+@import 'blocks/payment/payment';
+@import 'blocks/news/news';
+@import 'blocks/vacancy/vacancy';
+@import 'blocks/sales/sales';
+@import 'blocks/contact-block';
 @import 'blocks/footer';
 
 @import 'base/media';

@@ -137,3 +137,22 @@
 @media (max-width: 991px) {
 
 }
+
+@media (max-width: 768px) {
+    .sale-content {
+        display: flex;
+        align-items:center !important;
+        justify-content: center;
+        flex-direction: column;
+
+        img {
+            width: 85%;
+        }
+    }
+    .form__mail {
+        max-width: 100% !important;
+    }
+    .form__contacts {
+        width: 85% !important;
+    }
+}
