@@ -132,6 +132,9 @@
             font-size: 12px;
         }
     }
+    .map_block__item {
+        transform: translateX(25%) !important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -173,5 +176,8 @@
         &__item {
             transform: translateX(0%) !important;
         }
+    }
+    .map_block__item {
+        transform: translateX(0%) !important;
     }
 }

@@ -72,4 +72,43 @@
 
         }
     }
+
+    .map_block {
+
+        &__item {
+            display: inline-block;
+            background: $elements-color;
+            color: #fff;
+            transform: translateX(15%);
+        }
+
+        h6 {
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+
+    .scheme {
+        margin: 50px auto;
+        text-align: center;
+        a {
+            color: white;
+            text-decoration: none;
+            background: $elements-color;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+    }
+
+    .info {
+        color: white;
+        background: $elements-color;
+        text-align: center;
+        margin: 30px auto;
+        padding: 20px;
+        a {
+            color: #fff;
+        }
+    }
 }
