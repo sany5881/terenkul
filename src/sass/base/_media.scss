@@ -135,7 +135,20 @@
 }
 
 @media (max-width: 991px) {
+    .dacha-content {
+        flex-direction: column;
 
+        img {
+            padding: 20px;
+        }
+    }
+    .tour-content {
+        flex-direction: column;
+
+        img {
+            padding: 20px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -154,5 +167,11 @@
     }
     .form__contacts {
         width: 85% !important;
+    }
+
+    .check {
+        &__item {
+            transform: translateX(0%) !important;
+        }
     }
 }

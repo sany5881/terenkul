@@ -1,0 +1,75 @@
+.main {
+    .contacts_block {
+        margin: 50px auto;
+        position: relative;
+        background-color: $backside-color;
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        h2 {
+            text-align: center;
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px 0;
+        }
+        p {
+            text-align: end;
+        }
+        .write {
+            text-align: center;
+            a {
+                transition: all 0.4s;
+                padding: 10px;
+                background: $elements-color;
+                color: white;
+                font-size: 18px;
+                text-decoration: none;
+                &:hover {
+                    background-color: $links-hover_color;
+                }
+            }
+
+        }
+    }
+
+    .position_block {
+        margin: 50px auto;
+        position: relative;
+        background-color: #5f99ff;
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        h2 {
+            text-align: center;
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 18px;
+            text-align: center;
+            padding: 15px 0;
+        }
+        p {
+            text-align: end;
+        }
+        .write {
+            text-align: center;
+            a {
+                transition: all 0.4s;
+                padding: 10px;
+                background: $elements-color;
+                color: white;
+                font-size: 18px;
+                text-decoration: none;
+                &:hover {
+                    background-color: $links-hover_color;
+                }
+            }
+
+        }
+    }
+}

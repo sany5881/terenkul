@@ -1,0 +1,132 @@
+.main {
+    .time-rules {
+
+        padding: 50px 0;
+
+        .time-icons {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .time-to {
+            width: 300px;
+            padding: 30px 0;
+            float: none;
+
+            &__text {
+                display: inline-block;
+                vertical-align: middle;
+                width: calc(100% - 150px);
+                text-align: left;
+                margin-left: 10px;
+            }
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 24px;
+        }
+
+        h3 {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .check {
+
+            &__item {
+                color: #fff;
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 16px;
+                font-weight: 400;
+                transform: translateX(25%);
+
+                img {
+                    width: 50px;
+                    margin: 30px 15px;
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+            }
+
+            &__p {
+                width: calc(100% - 90px);
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+    }
+    .dacha_block {
+        margin: 100px auto;
+        position: relative;
+        background-color: $backside-color;
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        .dacha-content {
+            display: flex;
+            align-items:start;
+            justify-content: center;
+            
+            img {
+                //height: 180px;
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            padding: 0 0 10px 0;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            padding: 0px 20px;
+        }
+        .dacha-table {
+            padding: 0 0 0 20px;
+            border: 0px;
+            border-collapse: initial;
+            width: 100%;
+            margin: 0 0 70px 0;
+        }
+        .more {
+            padding: 0 20px;
+            position: absolute;
+            bottom: 0;
+
+            a {
+                display: block;
+                cursor: pointer;
+                text-decoration: none;
+                background-color: $elements-color;
+                color: #ffffff;
+                font-size: 14px;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 15px 0;
+                margin: 10px 10px 30px 0;
+                -webkit-transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+                transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+                &:hover {
+                    background-color: $links-hover_color;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 .main {
-    .sale_block {
+    .tour_block {
         margin: 100px auto;
         position: relative;
         background-color: $backside-color;
@@ -7,14 +7,16 @@
         width: 100%;
         padding: 30px 30px;
 
-        .sale-content {
+        .tour-content {
             display: flex;
             align-items:start;
             justify-content: center;
             
             img {
-                height: 180px;
+                //height: 180px;
+                display: block;
                 object-fit: cover;
+                width: 100%;
             }
         }
 
@@ -24,7 +26,8 @@
             padding: 0 0 10px 0;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
+            font-weight: 300;
             padding: 0px 20px;
         }
     }
