@@ -34,11 +34,13 @@
         &__table {
             padding: 20px 0;
             table {
+                max-width: 100%;
                 border: 1px solid;
                 color: white;
                 font-size: 20px;
                 padding: 10px;
                 width: 100%;
+                margin: 15px auto;
                 
                 td {
                     padding: 10px;

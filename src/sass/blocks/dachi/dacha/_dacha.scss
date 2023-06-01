@@ -1,0 +1,115 @@
+.main {
+    .room_block {
+        margin: 50px auto;
+        position: relative;
+        //background-color: $backside-color;
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        .room-content {
+            display: flex;
+            align-items:start;
+            justify-content: center;
+            
+            .room-image {
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            padding: 0 0 10px 0;
+        }
+        .description {
+            font-size: 20px;
+            font-weight: 300;
+            padding: 0 20px;
+        }
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        &__item {
+            margin: 25px auto;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            p {
+                padding: 10px 0;
+            }
+        }
+    }
+
+    .room_select {
+        h3 {
+            text-transform: uppercase;
+            font-size: 24px;
+            padding: 15px !important;
+        }
+        h4 {
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            font-weight: 400;
+            padding: 10px;
+        }
+        .container-slider {
+            max-width: 700px;
+            margin: 0 auto;
+          }
+      
+          .itc-slider__item {
+            flex: 0 0 33.3333333333%;
+            max-width: 33.3333333333%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba(255,255,255, 0.8);
+            font-size: 7rem;
+          }
+      
+          .itc-slider__item:nth-child(1) {
+            background-color: #f44336;
+          }
+      
+          .itc-slider__item:nth-child(2) {
+            background-color: #9c27b0;
+          }
+      
+          .itc-slider__item:nth-child(3) {
+            background-color: #3f51b5;
+          }
+      
+          .itc-slider__item:nth-child(4) {
+            background-color: #03a9f4;
+          }
+      
+          .itc-slider__item:nth-child(5) {
+            background-color: #4caf50;
+          }
+    }
+
+    .options {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+
+        &__item {
+            text-align: center;
+            font-size: 18px;
+            margin: 15px auto;
+            color: white;
+
+            .option-desc {
+                display: inline-block;
+            }
+        }
+    }
+}

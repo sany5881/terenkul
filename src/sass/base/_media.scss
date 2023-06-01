@@ -228,4 +228,36 @@
             }
         }
     }
+    .ent {
+        &__table {
+            td,th,tr {
+                font-size: 18px;
+            }
+        }
+        &__image {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .ent {
+        &__table {
+            td,th,tr {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .ent {
+        &__table {
+            td,th,tr {
+                font-size: 12px;
+            }
+        }
+    }
 }

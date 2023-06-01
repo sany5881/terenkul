@@ -1,0 +1,46 @@
+.main {
+    .rules_block {
+        margin: 15px auto;
+        position: relative;
+        background-color: $backside-color;
+        color: #fff;
+        width: 100%;
+        padding: 30px 30px;
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            border: 2px solid white;
+            text-transform: uppercase;
+            padding: 5px;
+            font-weight: 400;
+        }
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            width: 235px;
+            height: 260px;
+            object-fit: cover;
+            padding: 10px 0;
+            margin: 4px;
+        }
+    }
+
+    .full-rules {
+        text-align: center;
+        margin: 30px auto;
+        background: $backside-color;
+        padding: 15px 0;
+        a {
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold; 
+            text-decoration: none;
+            &:hover {
+                color: $elements-color;
+            }
+        }
+    }
+}
