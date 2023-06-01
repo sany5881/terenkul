@@ -1,0 +1,127 @@
+.main {
+    .rest {
+        &__block {
+            margin: 50px 0;
+            background-color: $backside-color;
+            color: #fff;
+            padding: 15px;
+            height: 85%;
+    
+            img {
+                width: 100%;
+            }
+    
+            h2 {
+                text-align: center;
+                font-size: 28px;
+            }
+            p {
+                text-align: justify;
+                font-size: 18px;
+                padding: 10px 0;
+            }
+        }
+
+        &__table {
+            padding: 20px 0;
+            table {
+                border: 1px solid;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+                width: 100%;
+                
+                td {
+                    padding: 10px;
+                    width: 33.3%;
+                }
+
+                .title {
+                    border-width: 1px;
+                }
+            }
+
+        }
+
+        &__banner {
+            background: linear-gradient(90deg, $elements-color 35%, #ffffff 65%);
+            border: 1px solid;
+            color: black;
+            width: 80%;
+            height: 77%;
+            border-radius: 15px;
+            margin: 15px auto;
+
+            .button {
+                background: $backside-color;
+                padding: 15px 90px;
+                font-size: 22px;
+                color: white;
+                border: 0;
+                transition: all 0.3s ease;
+                border-radius: 15px;
+                text-decoration: none;
+                transition: all 0.4s;
+                &:hover {
+                    background: $links-hover_color;
+                }
+            }
+
+            img {
+                height: 85%;
+                border-radius: 15px;
+            }
+            h3 {
+                color: #fff;
+                text-align:start;
+                font-weight: 400;
+                font-size: 24px;
+                padding: 50px 0;
+                width: 75%;
+            }
+        }
+        
+    }
+
+    .additional {
+        
+        &__item {
+            background: $backside-color;
+            padding: 25px;
+            margin: 15px auto;
+            
+            .desc {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        h3 {
+            font-size: 32px;
+            text-transform: uppercase;
+            padding: 10px !important;
+        }
+        img {
+            width: 100%;
+        }
+        p {
+            font-size: 22px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    h3 {
+        color: #fff;
+        text-align: center;
+        font-weight: 400;
+        font-size: 22px;
+        padding: 30px;
+    }
+}
