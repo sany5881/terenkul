@@ -1,3 +1,8 @@
+@media (min-width : 2000px) {
+    .form-booking {
+        width: calc(100% - 70%) !important;
+    }
+}
 @media (max-width: 1540px) {
     .header {
         .menu {
@@ -7,6 +12,9 @@
                 padding-right: 15px;
             }
         }
+    }
+    .form-booking {
+        width: calc(100% - 50%) !important;
     }
 }
 @media (max-width: 1440px) {
@@ -50,6 +58,18 @@
     }
     .rest__banner h3 {
         padding: 35px 0 !important;
+    }
+    .carousel {
+        &__inner {
+            width: 650px;
+    
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .form-booking {
+        width: calc(100% - 40%) !important;
     }
 }
 
@@ -141,6 +161,23 @@
     .form__mail {
         margin: 20px 25px 18px !important;
     }
+    .room_block {
+        .description {
+            font-size: 16px !important;
+        } 
+    }
+    .icons__item {
+        margin: -15px auto !important;
+    }
+    .form-booking {
+        transform: translateY(calc(100% - 30%)) !important;
+        width: calc(100% - 30%) !important;
+    }
+    .headline-wrapper {
+        h1 {
+            font-size: 20px !important;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -170,6 +207,24 @@
         .button {
             padding: 10px 75px !important;
             font-size: 20px !important;  
+        }
+    }
+    .room_block {
+        .room-content {
+            flex-direction: column;
+        }
+        .description {
+            font-size: 20px !important;
+            padding: 15px 0 !important;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 350px;
+    
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -240,6 +295,35 @@
             }
         }
     }
+    .head_section {
+        .head__title {
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        .head__title_dacha {
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+    .icons {
+        flex-direction: column;
+        background-color: #00000077;
+        padding: 30px 0;
+        &__item {
+            font-size: 20px !important;
+            img {
+                width: 80px !important;
+            }
+        }
+    }
+
+    .form-booking {
+        transform: translateY(calc(100% - 70%)) !important;
+        width: calc(100% - 20%) !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -249,6 +333,15 @@
                 font-size: 14px;
             }
         }
+    }
+    .head__title_dacha {
+        h1 {
+            font-size: 20px !important;
+        }
+    }
+    .form-booking {
+        transform: translateY(calc(100% - 75%)) !important;
+        width: calc(100% - 10%) !important;
     }
 }
 
@@ -260,4 +353,26 @@
             }
         }
     }
+    .head_section {
+        .head__title {
+            h1 {
+                font-size: 24px !important;
+            }
+        }
+        .head__title_dacha {
+            h1 {
+                font-size: 16px !important;
+            }
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+    
+            img {
+                width: 100%;
+            }
+        }
+    }
+
 }
