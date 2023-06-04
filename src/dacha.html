@@ -51,6 +51,12 @@
         <div class="container">
             <div class="row">
 
+                <div class="back">
+                    <div class="col-12">
+                        <a href="dachi.html"><p>Вернуться назад</p></a>
+                    </div>
+                </div>
+
                 <div class="col-12">
                     <div class="room_block">
                         <div class="room-content">
@@ -82,7 +88,7 @@
                         <div class="carousel">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-8 carousel__inner">
+                                    <div class="col-12 col-lg-12 col-xl-8 carousel__inner">
                                         <div>
                                             <img src="img/1.png" alt="image-carousel">
                                         </div>
@@ -97,12 +103,14 @@
                                         </div>
                                     </div>
     
-                                    <div class="col-4 booking">
-                                        <p>Цена за сутки:</p>
-                                        <p>
-                                            <strong>7500 руб.</strong>
-                                        </p>
-                                        <span class="booking__button"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Забронировать</span>
+                                    <div class="col-12 col-lg-12 col-xl-4 booking__block">
+                                        <div class="booking">
+                                            <p>Цена за сутки:</p>
+                                            <p>
+                                                <strong>7500 руб.</strong>
+                                            </p>
+                                            <span class="booking__button"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Забронировать</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -135,9 +143,9 @@
 
 
                 <div class="booking__form" id="booking-form-phone">
-                    <form class="form-booking" id="booking-form" method="POST" action="">
+                    <form class="form-booking" id="booking-form" method="POST" action="mailer-cottage.php">
                         <div class="headline-wrapper">
-                            <h1>Забронировать номер</h1>
+                            <h1 id="booking_thanks">Забронировать номер</h1>
                         </div>
                         <img class="close-icon" id="close-icon" src="https://terenkul.ru/wp-content/themes/terenkul-v2/img/close2.png">
 
@@ -166,7 +174,8 @@
                                         <label>Номер:</label>
                                         <div>
                                             <select name="room">
-                                                <option value="">
+                                                <option value="Дача №3">
+                                                    Дача №3
                                                 </option>
                                             </select>
                                         </div>
@@ -215,8 +224,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12 button_thanks" id="thanks_div">
+                            <button id="thanks_button" type="submit">Закрыть</button>
+                        </div>
                     </form>
                 </div>
+
 
             </div>
         </div>

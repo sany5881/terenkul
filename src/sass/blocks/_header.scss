@@ -84,6 +84,14 @@ header {
             padding-right: 20px;
             font-weight: 600;
         }
+
+        .header__phone {
+            display: none;
+        }
+    }
+
+    .hamburger {
+        display: none;
     }
     
 }

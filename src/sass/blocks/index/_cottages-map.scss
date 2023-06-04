@@ -76,8 +76,8 @@
             }
 
             &_admin {
-                left: 1310px;
-                top: 277px;
+                left: 1470px;
+                top: 375px;
                 height: 260px;
                 width: 200px;
                 .photo {
@@ -89,6 +89,17 @@
                 left: 870px;
                 top: 305px;
                 height: 270px;
+            }
+
+            &_4 {
+                left: 754px;
+                top: 335px;
+                height: 270px;
+                .description {
+                    p {
+                        font-size: 12px;
+                    }
+                }
             }
 
             &_5 {
@@ -110,31 +121,31 @@
             }
             
             &_11 {
-                left: 660px;
-                top: 300px;
+                left: 505px;
+                top: 305px;
                 height: 255px;
             }
     
             &_15 {
-                left: 355px;
+                left: 215px;
                 top: 340px;
                 height: 235px;
             }
     
             &_16 {
-                left: 430px;
+                left: 275px;
                 top: 310px;
                 height: 270px;
             }
     
             &_17 {
-                left: 530px;
+                left: 390px;
                 top: 285px;
                 height: 235px;
             }
 
             &_21 {
-                left: 730px;
+                left: 575px;
                 top: 245px;
                 height: 235px;
             }
@@ -155,13 +166,13 @@
             cursor: pointer;
             
             position: relative;
-            background-color: #fff;
+            //background-color: #fff;
 
 
             &_complex {
                 cursor: pointer;
                 left: 235px;
-                top: -27px;
+                top: 30px;
                 width: 80px;
                 height: 40px;
             }
@@ -169,7 +180,7 @@
             &_sauna {
                 cursor: pointer;
                 left: 384px;
-                top: -35px;
+                top: -2px;
                 width: 30px;
                 height: 17px;
             }
@@ -177,7 +188,7 @@
             &_admin {
                 cursor: pointer;
                 left: 585px;
-                top: 53px;
+                top: 70px;
                 width: 40px;
                 height: 30px;
             }
@@ -185,15 +196,23 @@
             &_3 {
                 cursor: pointer;
                 left: 162px;
-                top: -15px;
+                top: -27px;
                 width: 40px;
                 height: 25px;
+            }
+
+            &_4 {
+                cursor: pointer;
+                left: 5px;
+                top: -30px;
+                width: 60px;
+                height: 35px;
             }
 
             &_5 {
                 cursor: pointer;
                 left: 65px;
-                top: -55px;
+                top: -113px;
                 width: 40px;
                 height: 25px;
             }
@@ -201,7 +220,7 @@
             &_7 {
                 cursor: pointer;
                 left: 15px;
-                top: -90px;
+                top: -163px;
                 width: 40px;
                 height: 25px;
             }
@@ -209,7 +228,7 @@
             &_8 {
                 cursor: pointer;
                 left: -65px;
-                top: -85px;
+                top: -172px;
                 width: 40px;
                 height: 25px;
             }
@@ -217,7 +236,7 @@
             &_11 {
                 cursor: pointer;
                 left: -245px;
-                top: -95px;
+                top: -168px;
                 width: 60px;
                 height: 40px;
             }
@@ -225,7 +244,7 @@
             &_15 {
                 cursor: pointer;
                 left: -540px;
-                top: -75px;
+                top: -167px;
                 width: 57px;
                 height: 27px;
             }
@@ -233,7 +252,7 @@
             &_16 {
                 cursor: pointer;
                 left: -482px;
-                top: -145px;
+                top: -240px;
                 width: 75px;
                 height: 44px;
             }
@@ -241,7 +260,7 @@
             &_17 {
                 cursor: pointer;
                 left: -368px;
-                top: -210px;
+                top: -300px;
                 width: 47px;
                 height: 37px;
             }
@@ -249,7 +268,7 @@
             &_21 {
                 cursor: pointer;
                 left: -180px;
-                top: -284px;
+                top: -370px;
                 width: 40px;
                 height: 25px;
             }
@@ -257,7 +276,7 @@
             &_23 {
                 cursor: pointer;
                 left: -65px;
-                top: -315px;
+                top: -400px;
                 width: 40px;
                 height: 25px;
             }
@@ -265,7 +284,7 @@
             &_27 {
                 cursor: pointer;
                 left: 337px;
-                top: -365px;
+                top: -405px;
                 width: 45px;
                 height: 25px;
             }
