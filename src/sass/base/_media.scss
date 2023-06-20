@@ -12,6 +12,9 @@
             }
         }
     }
+    .cottage_admin {
+        left: 1320px !important;
+    }
 }
 @media (max-width: 1540px) {
     .header {
@@ -34,6 +37,12 @@
                 font-size: 16px;
             }
         }
+    }
+    .cottage_admin {
+        left: 1250px !important;
+    }
+    .cottage {
+        transform: scale(0.95) translateX(-20%) translateY(-2%);
     }
 }
 @media (max-width: 1440px) {
@@ -105,6 +114,9 @@
             }
         }
     }
+    .cottage {
+        transform: scale(.9) translateX(-40%) translateY(-5%);
+    }
 }
 
 @media (max-width: 1400px) {
@@ -120,6 +132,12 @@
                 font-size: 16px;
             }
         }
+    }
+    .cottage {
+        transform: scale(.85) translateX(-65%) translateY(-10%);
+    }
+    .cottage_admin {
+        left: 1200px!important;
     }
 }
 
@@ -139,6 +157,9 @@
         &__phone {
             font-size: 12px;
         }
+    }
+    .cottage_admin {
+        left: 1150px!important;
     }
 }
 
@@ -287,6 +308,12 @@
             }
         }
     }
+    .cottage {
+        transform: scale(.85) translateX(-65%) translateY(-55%);
+    }
+    .cottage_admin {
+        left: 1100px!important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -433,6 +460,12 @@
         min-height: 655px;
         transform: scale(.74);
     }
+    .cottage_admin {
+        left: 1040px!important;
+    }
+    .cottage {
+        transform: scale(.85) translateX(-90%) translateY(-63%);
+    }
 }
 
 @media (max-width: 870px) {
@@ -446,6 +479,12 @@
     .interactive-map {
         min-height: 580px;
         transform: scale(.86);
+    }
+    .cottage {
+        transform: scale(.8) translateX(-120%) translateY(-87%);
+    }
+    .cottage_admin {
+        left: 1030px!important;
     }
 }
 
@@ -568,7 +607,7 @@
             z-index: 1;
             right: 0;
             width: 100%;
-            height: 35vh;
+            height: 47vh;
             padding: 20px 15px;
             background-color: #fff;
             transition: all 0.5s;
@@ -760,7 +799,7 @@
         }
 
         .menu {
-            height: 37vh;
+            height: 50vh;
         }
 
         .hamburger {

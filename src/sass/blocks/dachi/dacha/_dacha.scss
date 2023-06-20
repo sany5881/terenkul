@@ -4,7 +4,7 @@
         margin: 0 auto;
         padding: 20px;
         background: $backside-color;
-        width: 94%;
+        width: 100%;
         &:hover {
             color: #94d184;
         }
@@ -36,7 +36,7 @@
             .room-image {
                 display: block;
                 object-fit: cover;
-                width: 100%;
+                width: 95%;
             }
         }
         h2 {
@@ -89,8 +89,8 @@
         padding: 25px 0;
 
         &__item {
-            text-align: center;
-            font-size: 18px;
+            text-align: left;
+            font-size: 16px;
             margin: 15px auto;
             color: white;
 
